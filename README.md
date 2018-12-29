@@ -58,7 +58,7 @@ Kids/users learn about concepts of rotational speed/velocity and how it’s bein
 Notice how the planets start the rotation on the same line? That's by design to demonstrate the concept of orbital speed. Given enough time, it would evolve gradually to simulate an actual solar system.
 
 
-
+🎉 Head over to YouTube for full experience: https://www.youtube.com/watch?v=LLcX2MUWtqY
 
 
 ---
