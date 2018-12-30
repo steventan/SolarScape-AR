@@ -1,29 +1,24 @@
-# Simulation of Solar System in Augmented Reality
-
 [![WWDC](https://img.shields.io/badge/WWDC%20Scholarship-Winner-4099FF.svg)](https://developer.apple.com/wwdc)
 
-<img width="700" alt="first" src="https://user-images.githubusercontent.com/43496238/50532140-f8712f80-0b4f-11e9-91cf-03d3c77f2cd9.png">
+# Solar Simulation - learn science like never before
 
-## About 🔭:
----
-Astronomy is the core of physics and science. And, with better understanding of science, people would eventually debunk the mentality of ‘learning science is just for exams’ when they get to see how science relates back to their everyday lives.
+<img width="750" alt="first" src="https://user-images.githubusercontent.com/43496238/50532140-f8712f80-0b4f-11e9-91cf-03d3c77f2cd9.png">
 
-This is especially important for people in Southeast Asia which is where I am originated from, as they tend to lack the curiosity and drive to learn science, which is all that crucial in building a more sustainable economy to eradicate poverty and thus improving the quality of life.
+## 🔭 About:
 
-### Author:
-[Steven Tan](https://github.com/StevenTan)
+This central concept of this project is about learning Astronomy because it is the core of physics and science. And with better understanding of science, we would begin to realize that "learning science" is not just about exams scores; it's about discovering how it intertwines with our daily lives.
 
-### Target Audience:
+This is particularly true in Southeast Asia, where I come from, as there's often a lack of curiosity and motivation when it comes to learning science. However, it's important to realize that a solid foundation in science plays a pivotal role in building a more sustainable economy, alleviating poverty, and ultimately elevating our quality of life.
 
-* Primary school children or younger
-* Users with no programming background
+## ⚙️ Design Rationale:
 
----
-## Design Objectives 📌:
+Although SceneKit primarily handled planet modeling, I'd like to underscore the central role of ARKit in this Playground. Augmented Reality was specifically chosen for this project as it would help set the perfect stage for a more immersive learning experience - allowing children to engage with abstract physics concepts through real-world interaction.
 
-**1. Getting kids into Coding**
+## 📌 Design Objectives:
 
-<img width="700" alt="variable" src="https://user-images.githubusercontent.com/43496238/50532190-d926d200-0b50-11e9-9c10-cccb32035bb9.png">
+**1. Introducing Kids to Coding**
+
+<img width="750" alt="variable" src="https://user-images.githubusercontent.com/43496238/50532190-d926d200-0b50-11e9-9c10-cccb32035bb9.png">
 
 We allow the kids to explore the Solar System by tweaking the codebase, making mistakes and eventually learning from them. In this particular playground, users/kids are able to code and manipulate:
 
@@ -32,55 +27,26 @@ We allow the kids to explore the Solar System by tweaking the codebase, making m
  * The planet rotation speed around Sun as the centre of rotation  
  * The distance between planets in the solar system
   
-Children learn about the concepts of rotational motion and how it’s being affected by its distance from its centre of rotation. So instead of ‘teaching’ these abstract concepts, we allow the kids to interact with them and let them to do the learning.
+Children learn about the concepts of rotational motion and how it's influenced by the distance from its center of rotation. Rather than simply "teaching" these abstract concepts, this provides opportunities for kids to interact with them, allowing them to learn through hands-on experience.
 
-Children would also notice that the planets start the rotation on the same line (x-axis), that's by design to demonstrate the concept of orbital speed. Given enough time, it would evolve gradually to simulate an actual solar system.
+Children will observe that the planets initially begin their rotation on the same line (x-axis). This deliberate design choice serves to illustrate the concept of orbital speed. Over time, this simulation gradually evolves to mirror an actual solar system.
 
-Children are encouraged to explore by walking to the furthest planets and back, all in the comfort of their own rooms. Natural satellites of Earth and Mars have also been included.
+Children are encouraged to explore by navigating to the farthest planets and back, all from the comfort of their own rooms. Additionally, natural satellites of Earth and Mars are included in the simulation.
 
- ---
 **2. Instilling A Love Of Science In Children**
 
- <img width="690" alt="changevariable" src="https://user-images.githubusercontent.com/43496238/50532156-23f41a00-0b50-11e9-9d3c-02873372b66a.png">
+ <img width="750" alt="changevariable" src="https://user-images.githubusercontent.com/43496238/50532156-23f41a00-0b50-11e9-9d3c-02873372b66a.png">
 
-Once the kids have gotten the solar system set up, in most cases they should immediately notice that the natural satellite of earth, which is Moon would collide with neighbouring planets as the initial distance between them might be just too close. 
+Once the kids have set up the solar system, they may quickly notice that Earth's natural satellite, the Moon, can collide with neighboring planets due to the initial proximity.
 
-Through trial and errors of setting the distance by tweaking the codebase, they learn. And we learn best from experience.
+Through trial and error, as they adjust the distances by tweaking the codebase, learning takes place. After all, we often learn best through experience.
 
-Kids/users learn about concepts of rotational speed/velocity and how it’s being affected by its distance from the centre of rotation. So instead of ‘teaching’ these abstract concepts, we allow the kids to interact with them and let the learning to happen naturally.
+Children and users gain insights into concepts like rotational speed/velocity and how it's influenced by the distance from the center of rotation. Instead of "teaching" these abstract ideas, we encourage kids to interact with them, allowing learning to occur naturally.
 
----
+Making learning fun and interactive. Take a look at Earth! 👻 
 
-👻 _Making learning fun and interactive. Look at Earth!_
+<img width="750" alt="changevariable" src="https://user-images.githubusercontent.com/43496238/50532311-9a921700-0b52-11e9-87c5-5072859f95c9.gif">
 
-![EarthRotation](https://user-images.githubusercontent.com/43496238/50532311-9a921700-0b52-11e9-87c5-5072859f95c9.gif)
+Have you noticed how the planets all begin their rotation on the same line? This design choice is intentional to illustrate the concept of orbital speed. Over time, the simulation gradually evolves to closely resemble an actual solar system.
 
-Notice how the planets start the rotation on the same line? That's by design to demonstrate the concept of orbital speed. Given enough time, it would evolve gradually to simulate an actual solar system.
-
-
-🎉 Head over to YouTube for full experience: https://youtu.be/IkvSdBBeNnk
-
-
----
-### Design Rationale ✏️:
-
-The framework used was adapted from the AR-module of iOS project.  SceneKit was mostly used for the modelling of planets but I wish to place more emphasis on the central role of ARKit in this Playground.
-
-Knowing the importance of developing an interest in science in children, Augmented Reality in particular was chosen in this project as it woudld help to set the perfect stage for a more immersive learning experience of abstract concepts through real-world interaction.
-
----
-### Test Environment ⚙️:
-
-This playground was tested to run successfully on:
-
-* Device Model: iPad 5th-Gen (A1822)
-* iOS version: 11.3
-* Playground Version: 2.0
-* Test Date: April 1, 2018.
-
----
-
-_This document was last modified on April 2, 2018._
-
-
-
+Head over to YouTube for an immersive experience: https://www.youtube.com/watch?v=IkvSdBBeNnk
